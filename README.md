@@ -18,9 +18,11 @@ git-learning
 - git branch <name> → create new branch  
 - git checkout <branch> → switch branch  
 - git switch <branch> → (new way) switch branch  
-- git checkout -b <name> → create + switch branch  
-- git merge <branch> → merge branch into current  
-- git rebase <branch> → reapply commits on top of another branch  
+- git checkout -b <name> → create + switch branch
+- git diff <branch name> → to compare commits, branches, files and more 
+- git merge <branch name > → merge branch into current (megrge two branch)
+- git rebase <branch> → reapply commits on top of another branch
+   
 
 ## Status & History  
 
@@ -28,7 +30,6 @@ git-learning
 - git log → show commit history  
 - git log --oneline → compact history  
 - git show <commit-id> → details of a commit  
-- git diff → show changes not staged  
 - git diff --staged → show changes staged for commit  
 
 ## Undo / Fix  
